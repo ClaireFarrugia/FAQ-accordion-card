@@ -1,0 +1,99 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: gray;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+html{
+    min-height: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+#illustration{
+    width: 350px;
+    height: 300px;
+    overflow: visible;
+    object-position: -52px 35px;
+}
+
+#box{
+    object-position: -65px 159px;
+    height: 140px;
+    width: 140px;
+    overflow: visible;
+    position: absolute;
+}
+
+
+#card{
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top -280px left -500px;
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+p{
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#text{
+    width: 70%;
+    padding: 40px 70px 50px 50px;
+}
+
+button{
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(240, 6%, 50%);
+    font-weight: bold;
+    height: 30px;
+    width: 300px;
+}
+
+hr{
+    border-top: 1px solid hsl(240, 5%, 91%);
+}
+
+button:focus{
+    color: black;
+}
