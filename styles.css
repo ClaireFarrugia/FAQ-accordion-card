@@ -143,7 +143,7 @@ button:hover{
     #illustration{
         content: url(images/illustration-woman-online-mobile.svg);
         width: 55%;
-        object-position: 70px -165px;
+        translate: 150px -165px;
         overflow: visible;
         position: absolute;
     }
