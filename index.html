@@ -9,7 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-  
+  <script src="script.js"></script>
+
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
 
@@ -19,36 +20,36 @@
   <div id="wrapper">
   <div id="card">
   
-  
-  <img id="box" src="images/illustration-box-desktop.svg" alt="orange box with at sign on top">
+ 
   <img id="illustration" src="images/illustration-woman-online-desktop.svg" alt="illustration of a woman looking at a computer">
-  
+  <img id="box" src="images/illustration-box-desktop.svg" alt="orange box with at sign on top">
   
   <div id="text">
   <h1>FAQ</h1>
 
-  <button id="A">How many team members can I invite?<img class="arrow" src="images/icon-arrow-down.svg" alt="arrow"></button>
-  <hr>
+  <button onclick="expand('A')" id="QA">How many team members can I invite?<img id="arrowA" src="images/icon-arrow-down.svg" alt="arrow"></button>
+
   <p id="PA">You can invite up to 2 additional users on the Free plan. There is no limit on 
   team members for the Premium plan.</p>
-
-  <button id="B">What is the maximum file upload size?<img class="arrow" src="images/icon-arrow-down.svg" alt="arrow"></button>
   <hr>
+
+  <button onclick="expand('B')" id="QB">What is the maximum file upload size?<img id="arrowB" src="images/icon-arrow-down.svg" alt="arrow"></button>
   <p id="PB">No more than 2GB. All files in your account must fit your allotted storage space.</p>
-
-  <button id="C">How do I reset my password?<img class="arrow" src="images/icon-arrow-down.svg" alt="arrow"></button>
   <hr>
+
+  <button onclick="expand('C')" id="QC">How do I reset my password?<img id="arrowC" src="images/icon-arrow-down.svg" alt="arrow"></button>
   <p id="PC">Click “Forgot password” from the login page or “Change password” from your profile page.
   A reset link will be emailed to you.</p>
-
-  <button id="D">Can I cancel my subscription?<img class="arrow" src="images/icon-arrow-down.svg" alt="arrow"></button>
   <hr>
+
+  <button onclick="expand('D')" id="QD">Can I cancel my subscription?<img id="arrowD" src="images/icon-arrow-down.svg" alt="arrow"></button>
   <p id="PD">Yes! Send us a message and we’ll process your request no questions asked.</p>
-
-  <button id="E">Do you provide additional support?<img class="arrow" src="images/icon-arrow-down.svg" alt="arrow"></button>
   <hr>
+
+  <button onclick="expand('E')" id="QE">Do you provide additional support?<img id="arrowE" src="images/icon-arrow-down.svg" alt="arrow"></button>
   <p id="PE">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
-  </div>
+  <hr>
+</div>
 
   </div>
 </div>
